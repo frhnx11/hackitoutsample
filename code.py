@@ -11,8 +11,8 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 # YouTube API Key (Replace with your own)
-API_KEY = "AIzaSyCTUoHHcF7Z6t0bm0YxdCUJzuokIwMmyuM"
-GEMINI_API_KEY = "AIzaSyAgAsniXH_YbLkuoAh7RCn8987mp50FO98"
+API_KEY = "<YOUTUBE_API_KEY"
+GEMINI_API_KEY = "<GEMINI_API_KEY>"
 
 # Configure Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
